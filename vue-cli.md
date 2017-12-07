@@ -3,7 +3,7 @@
 #### 1.//全局安装vue-cli
 **npm install -g vue-cli**
 #### 2.//初始化项目文件
-**### vue init webpack vuedemo(项目文件名)** 
+**### vue init webpack vuedemo(自定义的项目文件名)**
 #### 3.//进入项目文件
 **### cd vuedemo**
 #### 4.//安装模块依赖
