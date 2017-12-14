@@ -10,4 +10,8 @@ npm -g outdated
 
 //运行安装命令
 npm install -g vue-cli
+//安装完毕，查看vue-cli的版本
+
+vue -V
+
 
