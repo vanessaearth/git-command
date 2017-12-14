@@ -1,4 +1,7 @@
 ##//查看当前版本
+
 ###1.npm -v
+
 ##//安装最新版本
+
 ###2.npm install npm@latest -g
