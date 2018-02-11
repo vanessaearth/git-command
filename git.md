@@ -7,6 +7,7 @@ ps:工作区有一个.git的隐藏目录，
 然后commit，把暂存区的内容提交到本地仓库的当前分支
 
 然后push，提交本地仓库的内容到远程仓库
+ 
 
 1.克隆代码
 
@@ -69,4 +70,22 @@ $ git pull
 使用：git pull --allow-unrelated-histories
 
 
+16.可以查看当前工作区和版本库中文件的差异
+~~~
+ git diff HEAD -- git-error.md
+~~~
+
+17.放弃add到暂存区文件的修改
+~~~
+git checkout -- file
+~~~
+18.放弃commit的文件修改
+~~~
+git reset HEAD file
+~~~
+19.git删除文件
+~~~
+git rm aa.txt
+git commit -m 'delete aa.txt'
+~~~
 -----------over----------
