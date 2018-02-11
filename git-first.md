@@ -91,7 +91,7 @@ to your authentication agent，执行ssh-agent bash命令））
 
 把id_rsa.pub文件里的内容复制到用户设置下的ssh keys
 
-5.
+5.检查是否按照成功
 ~~~
 ssh -T git@github.com
 ~~~
