@@ -1,5 +1,5 @@
 # git pull 或者 其他命令出现以下错误 
-##一. error: bad index file sha1 signature fatal: index file corrupt
+## 一. error: bad index file sha1 signature fatal: index file corrupt
 ###  解决方法：
  1.在项目中有。git的目录下打开git bash 输入：rm -f .git/index
  
